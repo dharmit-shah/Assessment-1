@@ -1,0 +1,243 @@
+body {
+    font-family: 'Roboto';
+}
+
+div.menu {
+    width: 20px;
+    height: 2px;
+    background-color:white;
+    margin: 3px 0;
+    text-align: center;
+    margin-left: 50%;
+    color: white;
+}
+
+.container .logo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .nis{
+    padding-top: 20px;
+}
+
+.new{
+    text-align: center;
+    color: white;
+}
+
+.one{
+    text-align: center;
+    color: white;
+    margin-top: 85px;
+}
+
+.crick{
+    text-align: center;
+}
+
+.crick p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.push{
+    text-align: center;
+}
+
+.push p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px; 
+}
+
+.yes-no{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;  
+}
+
+.curve{
+    width: 19%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+@media screen and (max-width:1200px){
+    .yes-no{
+        width: 40%;
+    }
+}
+
+.pick-up{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;  
+}
+
+.pick-up .dee{
+    width: 16%;
+    text-align: center;
+}
+
+.pick-up .eee{
+    width: 18%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .pick-up{
+        width: 40%;
+    }
+}
+
+.root {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Roboto';
+}
+
+.root h4 {
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+  
+  .flex-container > div {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container .april{
+    margin-top: -44px;
+}
+
+.flex-container .may{
+    margin-top: -44px;
+}
+
+.flex-container .june{
+    margin-top: -44px;
+}
+
+.flex-container .woho{
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -20px;    
+}
+
+.flex-container .oho{
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -20px;    
+}
+
+.flex-container .wooo{
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -20px;    
+}
+
+.awes{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.awes button{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    height: 40px;
+    width: 150px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Roboto';
+}
+
+.bottom h4 {
+    font-size: 30px;
+}
+
+.price .xyz{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.price .hard{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.value .xyz{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.value .hard{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.free .xyz{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.free .hard{
+    line-height: 23px;
+    font-size: 21px;
+}
+
+.quote{
+    text-align: center;
+}
+
+.quote img{
+    padding: 0px 70px 0px 82px;
+}
+
+.contact {
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Roboto';
+}
+
+.contact h4 {
+        font-size: 30px;
+}
+
+.form {
+    text-align: center;
+}
+
+footer {
+    height: 100px;
+    background-color:rgb(119, 115, 115);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    background-color: white;
+    color: black;
+}
